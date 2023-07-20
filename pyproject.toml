@@ -9,6 +9,12 @@ readme = "README.md"
 python = "^3.11"
 django = "^4.2.3"
 pillow = "^10.0.0"
+social-auth-app-django = {git = "https://github.com/python-social-auth/social-app-django.git", rev = "20fabcd7bd9a8a41910bc5c8ed1bd6ef2263b328"}
+django-extensions = {git = "https://github.com/django-extensions/django-extensions.git", rev = "25a41d8a3ecb24c009c5f4cac6010a091a3c91c8"}
+werkzeug = "^2.3.6"
+pyopenssl = "^23.2.0"
+requests = "^2.31.0"
+easy-thumbnails = "^2.8.5"
 
 
 [build-system]
